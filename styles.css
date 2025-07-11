@@ -1,0 +1,198 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Services Banners */
+.services-banners {
+  background-color: #f8f9fa;
+}
+
+.services-banners h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.service-icon {
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service-icon:hover {
+  transform: scale(1.05);
+}
+
+.card h5 {
+  color: #0d6efd;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+footer a i {
+  transition: color 0.3s ease;
+}
+
+footer a:hover i {
+  color: #0d6efd;
+}
+
+.team-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+section i {
+  color: #0d6efd;
+}
+
+.card h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card ul li {
+  padding: 8px 0;
+  font-size: 0.95rem;
+}
+
+.services-intro {
+  background-image: url('images/backg.jpeg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.services-intro::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+  z-index: 1;
+}
+
+.services-intro .container {
+  position: relative;
+  z-index: 2;
+}
+
+.pricing-hero {
+  background: url('images/pricing-bg.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.pricing-hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.pricing-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Pricing Hero Section */
+.pricing-hero {
+  background: url('images/pricing-bg.jpg') center/cover no-repeat;
+  position: relative;
+  color: white;
+}
+
+.pricing-hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.pricing-hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Pricing Cards */
+.card h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.card ul li {
+  padding: 8px 0;
+  font-size: 0.95rem;
+}
+
+/* Comparison Table */
+.table th, .table td {
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.table td i {
+  font-size: 1.1rem;
+}
+
+/* FAQ Accordion */
+.accordion-button {
+  font-weight: 600;
+  background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+  color: #0d6efd;
+}
+
+.accordion-body {
+  font-size: 0.95rem;
+}
+
+/* Call to Action */
+section.text-center h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.btn-lg {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+}
+
+form input, form textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.1);
+}
